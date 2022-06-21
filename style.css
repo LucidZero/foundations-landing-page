@@ -1,7 +1,42 @@
 body{
     background-color: #1f2937;
+    margin: 0 10vh 0 10vh;
+    display: flex;
+    flex: 1;
 }
 .headerBody{
+display: flex;
 flex: 1;
 color: white;
+flex-direction: column;
+width: 90vh;
+}
+.header{
+    display: flex;
+    padding-top: 2vh;
+    justify-content: space-between;
+
+}
+.headerBox{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+}
+.headerLeft{
+    width: 50vw;
+}
+.headerImage{
+    background-color: gray;
+    width: 50vw;
+    position: relative;
+
+}
+.headerImage p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
