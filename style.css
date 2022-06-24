@@ -12,6 +12,7 @@ body{
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-bottom: 210px ;
 
 
 }
@@ -96,13 +97,97 @@ a{
     margin-left: 1vw;
 }
 
+
+
+#differentBackgroundColor{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+
+
+
 #imageBody{
     width: 70vw;
     display: flex;
     flex: 1;
     flex-direction: column;
+    align-items: center;
 
 }
+
+#secondTitle{
+    
+
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+    margin: 50px 0;
+}
+
+#fourImages{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.displayBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 170px;
+
+}
+
+
+.displayImage{
+
+
+width: 170px;
+height: 170px;
+border: #3882f6;
+border-radius: 15px;
+border-width: 3px;
+border-style: solid;
+margin-bottom: 10px;
+
+}
+
+
+.displayText{
+width: 170px;
+text-align: center;
+font-size: 16px;
+color:#1f2937;
+}
+
+
+
+
+
+#differentBackgroundColorForBody{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(220deg 13% 91%);
+    width: 100%;
+}
+
+
+
+
 
 #quoteBody{
     display: flex;
