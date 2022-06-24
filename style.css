@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     background-color: #1f2937;
     align-items: center;
-    padding-top: 1vh;
+    padding-top: 25px;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
