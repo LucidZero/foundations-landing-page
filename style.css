@@ -5,6 +5,8 @@ body{
     background-color: #1f2937;
     align-items: center;
     padding-top: 1vh;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 #headerBody{
@@ -27,6 +29,7 @@ body{
 }
 #headerLogo{
     font-size: 24px;
+    font-weight: 900;
 }
 #headerLinks{
 
@@ -50,7 +53,7 @@ body{
 #headerTitle{
     color: #f9faf8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     width: 20vw;
     margin-bottom: 10px;
 
@@ -128,7 +131,7 @@ a{
     
 
     font-size: 36px;
-    font-weight:bolder;
+    font-weight:700;
     color: #1f2937;
     margin: 50px 0;
 }
@@ -171,6 +174,7 @@ a{
     text-align: center;
     font-size: 16px;
     color:#1f2937;
+
 }
 
 
@@ -204,7 +208,7 @@ a{
 
 font-size: 36px;
 font-style: italic;
-font-weight: lighter;
+font-weight: 100;
 width: 80%;
 display: flex;
 flex-direction: column;
@@ -213,9 +217,10 @@ flex-direction: column;
 
 }
 #quoteBy{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     align-self: end;
+    font-style: normal;
 }
 
 #signUpBox{
@@ -249,7 +254,7 @@ flex-direction: column;
 #signUpTitle{
     color: #e5e7eb;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
 
 }
 #signUpText{
