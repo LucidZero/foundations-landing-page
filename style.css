@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #1f2937;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+#headerBody{
+    width: 70vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+
+}
+#header{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f9faf8;
+    margin-bottom: 9vh;
+
+}
+#headerLogo{
+    font-size: 24px;
+}
+#headerLinks{
+
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#headerBox{
+display: flex;
+flex: 1;
+
+
+}
+
+#headerLeft{
+width: 50%;
+
+
+}
+
+#headerTitle{
+color: #f9faf8;
+font-size: 48px;
+font-weight: 900;
+width: 20vw;
+margin-bottom: 10px;
+
+}
+
+#headerText{
+width: 90%;
+font-size: 18px;
+color: #e5e7eb;
+
+margin-bottom: 10px;
+
+
+}
+button{
+
+background-color: #3882f6;
+color: #f9faf8;
+border-radius: 0.5em;
+font-size: 18px;
+padding: 7px 30px;
+font-weight: 700;
+
+}
+
+#headerImage{
+background-color: hsl(214deg 7% 46%);
+width: 50%;
+align-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+#headerImage p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+a{
+    text-decoration: none;
+    color: azure;
+    margin-left: 1vw;
+}
+
+#imageBody{
+    width: 70vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+#quoteBody{
+    display: flex;
+    width: 70vw;
+    flex: 1;
+    flex-direction: column;
+
+
+}
